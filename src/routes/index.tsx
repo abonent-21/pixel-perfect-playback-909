@@ -11,9 +11,9 @@ import { Card } from "@/components/ui/card";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "РеаКинетика — реабилитация под контролем врача и ИИ" },
-      { name: "description", content: "R&D-проект: домашняя реабилитация и фитнес с компьютерным зрением, валидатором безопасности и врачом-реабилитологом." },
-      { property: "og:title", content: "РеаКинетика — реабилитация под контролем врача и ИИ" },
+      { title: "ReBelta — реабилитация под контролем врача и ИИ" },
+      { name: "description", content: "ReBelta: R&D-проект домашней реабилитации и фитнеса с компьютерным зрением, валидатором безопасности и врачом-реабилитологом." },
+      { property: "og:title", content: "ReBelta — реабилитация под контролем врача и ИИ" },
       { property: "og:description", content: "Компьютерное зрение, многоуровневая проверка безопасности ИИ и прямая связь с реабилитологом." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -68,6 +68,7 @@ function About() {
     <main>
       <section className="relative overflow-hidden bg-hero">
         <div className="mx-auto max-w-5xl px-4 py-24 text-center md:py-32 animate-in fade-in slide-in-from-bottom-4 duration-700">
+          <p className="mb-4 font-display text-xs font-semibold uppercase tracking-[0.35em] text-primary">ReBelta</p>
           <Badge variant="outline" className="mb-6 gap-2 rounded-full bg-card px-4 py-1.5 text-sm">
             <FlaskConical className="h-4 w-4 text-primary" /> Стадия проекта: R&D и демонстрационный прототип
           </Badge>
@@ -176,7 +177,7 @@ function About() {
 function SectionTitle({ kicker, title, text }: { kicker: string; title: string; text?: string }) {
   return (
     <div className="mx-auto mb-10 max-w-2xl text-center">
-      <p className="text-sm font-semibold uppercase tracking-widest text-recovery">{kicker}</p>
+      <p className="text-sm font-semibold uppercase tracking-widest text-medical">{kicker}</p>
       <h2 className="mt-2 text-2xl font-semibold md:text-3xl">{title}</h2>
       {text && <p className="mt-3 text-muted-foreground">{text}</p>}
     </div>

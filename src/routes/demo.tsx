@@ -15,10 +15,10 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/demo")({
   head: () => ({
     meta: [
-      { title: "Демо приложения — РеаКинетика" },
-      { name: "description", content: "Интерактивный прототип кабинета пациента: упражнения с CV-анализом, графики прогресса и чат с реабилитологом." },
-      { property: "og:title", content: "Демо приложения — РеаКинетика" },
-      { property: "og:description", content: "Покликайте прототип: CV-тренажёр, прогресс и чат с врачом." },
+      { title: "Демо приложения — ReBelta" },
+      { name: "description", content: "Интерактивный прототип кабинета пациента ReBelta: упражнения с CV-анализом, графики прогресса и чат с реабилитологом." },
+      { property: "og:title", content: "Демо приложения — ReBelta" },
+      { property: "og:description", content: "Покликайте прототип ReBelta: CV-тренажёр, прогресс и чат с врачом." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -144,7 +144,7 @@ function CvTrainer({ title }: { title: string }) {
       <div className="relative aspect-[4/3] overflow-hidden bg-cv-bg">
         <div className="pointer-events-none absolute inset-x-0 top-0 h-full"><div className="animate-scan h-px w-full bg-cv-line/40" /></div>
         <span className="absolute left-3 top-3 flex items-center gap-1.5 rounded-full bg-background/10 px-2.5 py-1 text-xs text-cv-joint">
-          <span className="h-2 w-2 animate-pulse rounded-full bg-destructive" /> LIVE · 30 fps
+          <span className="h-2 w-2 animate-pulse rounded-full bg-cv-line" /> LIVE · 30 fps
         </span>
         <svg viewBox="0 0 320 260" className="h-full w-full">
           <rect x="95" y="175" width="90" height="10" rx="4" className="fill-cv-joint/15" />
@@ -175,7 +175,7 @@ function CvTrainer({ title }: { title: string }) {
 function Metric({ label, value }: { label: string; value: string }) {
   return (
     <div className="min-w-32 rounded-xl bg-background/10 px-3 py-2 text-cv-joint backdrop-blur">
-      <p className="text-[10px] uppercase tracking-wide opacity-70">{label}</p>
+      <p className="text-[11px] uppercase tracking-wide opacity-90">{label}</p>
       <p className="font-display text-lg font-semibold tabular-nums">{value}</p>
     </div>
   );
