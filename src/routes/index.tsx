@@ -68,6 +68,7 @@ function About() {
     <main>
       <section className="relative overflow-hidden bg-hero">
         <div className="mx-auto max-w-5xl px-4 py-24 text-center md:py-32 animate-in fade-in slide-in-from-bottom-4 duration-700">
+          <p className="mb-4 font-display text-xs font-semibold uppercase tracking-[0.35em] text-primary">ReBelta</p>
           <Badge variant="outline" className="mb-6 gap-2 rounded-full bg-card px-4 py-1.5 text-sm">
             <FlaskConical className="h-4 w-4 text-primary" /> Стадия проекта: R&D и демонстрационный прототип
           </Badge>
