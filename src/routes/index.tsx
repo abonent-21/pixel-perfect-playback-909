@@ -177,7 +177,7 @@ function About() {
 function SectionTitle({ kicker, title, text }: { kicker: string; title: string; text?: string }) {
   return (
     <div className="mx-auto mb-10 max-w-2xl text-center">
-      <p className="text-sm font-semibold uppercase tracking-widest text-recovery">{kicker}</p>
+      <p className="text-sm font-semibold uppercase tracking-widest text-medical">{kicker}</p>
       <h2 className="mt-2 text-2xl font-semibold md:text-3xl">{title}</h2>
       {text && <p className="mt-3 text-muted-foreground">{text}</p>}
     </div>
