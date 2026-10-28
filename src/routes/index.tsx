@@ -11,9 +11,9 @@ import { Card } from "@/components/ui/card";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "РеаКинетика — реабилитация под контролем врача и ИИ" },
-      { name: "description", content: "R&D-проект: домашняя реабилитация и фитнес с компьютерным зрением, валидатором безопасности и врачом-реабилитологом." },
-      { property: "og:title", content: "РеаКинетика — реабилитация под контролем врача и ИИ" },
+      { title: "ReBelta — реабилитация под контролем врача и ИИ" },
+      { name: "description", content: "ReBelta: R&D-проект домашней реабилитации и фитнеса с компьютерным зрением, валидатором безопасности и врачом-реабилитологом." },
+      { property: "og:title", content: "ReBelta — реабилитация под контролем врача и ИИ" },
       { property: "og:description", content: "Компьютерное зрение, многоуровневая проверка безопасности ИИ и прямая связь с реабилитологом." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -15,10 +15,10 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/demo")({
   head: () => ({
     meta: [
-      { title: "Демо приложения — РеаКинетика" },
-      { name: "description", content: "Интерактивный прототип кабинета пациента: упражнения с CV-анализом, графики прогресса и чат с реабилитологом." },
-      { property: "og:title", content: "Демо приложения — РеаКинетика" },
-      { property: "og:description", content: "Покликайте прототип: CV-тренажёр, прогресс и чат с врачом." },
+      { title: "Демо приложения — ReBelta" },
+      { name: "description", content: "Интерактивный прототип кабинета пациента ReBelta: упражнения с CV-анализом, графики прогресса и чат с реабилитологом." },
+      { property: "og:title", content: "Демо приложения — ReBelta" },
+      { property: "og:description", content: "Покликайте прототип ReBelta: CV-тренажёр, прогресс и чат с врачом." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

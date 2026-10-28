@@ -80,8 +80,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "РеаКинетика — домашняя реабилитация с ИИ" },
-      { name: "description", content: "Платформа домашней реабилитации и фитнеса с ИИ и компьютерным зрением под контролем врача." },
+      { title: "ReBelta — домашняя реабилитация с ИИ" },
+      { name: "description", content: "ReBelta: платформа домашней реабилитации и фитнеса с ИИ и компьютерным зрением под контролем врача." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -138,7 +138,7 @@ function SiteHeader() {
           <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand text-primary-foreground">
             <Activity className="h-5 w-5" />
           </span>
-          <span className="font-display text-base font-semibold">РеаКинетика</span>
+          <span className="font-display text-base font-semibold">ReBelta</span>
         </Link>
         <nav className="flex items-center gap-1 rounded-full border bg-card p-1 shadow-soft">
           <Link to="/" className={tab} activeOptions={{ exact: true }} activeProps={{ className: "bg-primary text-primary-foreground hover:text-primary-foreground" }}>
