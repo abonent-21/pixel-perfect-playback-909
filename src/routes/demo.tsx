@@ -101,7 +101,7 @@ function Exercises({ medical }: { medical: boolean }) {
           </button>
         ))}
       </div>
-      <CvTrainer title={exercises[sel].name} />
+      <CvTrainer title={exercises[sel]?.name ?? ""} />
     </div>
   );
 }
